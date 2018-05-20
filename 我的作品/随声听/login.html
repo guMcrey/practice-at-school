@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户注册</title>
+	<link rel="stylesheet" type="text/css" href="css/registerstyle.css" />
+</head>
+<body>
+	<div class="login-container">
+	<h1>用户登录</h1>
+	<div class="connect">
+		<p><b>随声听</b></p>
+	</div>
+	<form action="" method="post" id="loginForm">
+		<div>
+			<input type="text" name="username" class="usernamer"
+			placeholder="用户名" autocomplete="off"/>
+		</div>
+		<div>
+			<input type="password" name="password" class="password"
+			placeholder="密码" oncontextmenu="return false" onpaste="return false" /> <!--onpaste-->
+		</div>
+		<button id="submit" type="submit">登 录</button>
+	</form>
+
+	<a href="register.html">
+		<button type="button" class="register-tis">还没有账号？</button>
+	</a>
+
+	<script src="js/jquery.min.login.js"></script>
+	<script src="js/common.js"></script>
+	<!--背景图片自动更换-->
+	<script src="js/supersized.3.2.7.min.js"></script>
+	<script src="js/supersized-init.js"></script>
+	<!--表单验证-->
+	<script src="js/jquery.validate.min.js?var1.14.0"></script>
+</body>
+</html>

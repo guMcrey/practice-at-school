@@ -1,0 +1,318 @@
+@charset "utf-8";
+/*css document*/
+
+body {
+	font-family: arial;
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+	background-image: url(../images/ly.jpg);
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+ul ,li {
+	list-style-type: none;
+	padding: 0px;
+	margin-top: -6px;
+}
+
+	/*-----------------------导航栏-----------------------*/
+#top {
+	z-index: 9999;
+	width: 100%;
+	top: 0;
+	left: 0;
+	color: #fff;
+	font-size: 12px;
+	vertical-align: middle;
+	line-height: 45px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, .4);
+	background-color: #1F1F1F;
+	height: 51px;
+	overflow: hidden;
+	position: fixed;
+}
+
+#top .w960 {
+	height: 90px;
+}
+
+.top_r a {
+	padding: 0 5px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.top_r {
+	float: right;
+	width: 300px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.logo {
+	width: 100px;
+	float: left;
+}
+
+.logo a {
+	display: block;
+	text-indent: -9999px;
+	background: url(../images/logo.png) no-repeat 0 -10px;
+	width: 140px;
+	height: 60px;
+}
+
+.w960 {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.nav_top {
+	width: 100%;
+	height: 42px;
+	background-color: #0f9ED9;
+}
+
+.top {
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.logo1 {
+	float: left;
+	margin: 55px 20px;
+}
+	
+	
+     /*---------------文本框、发布---------*/
+.mian {
+	width: 1000px;
+	margin: auto;
+	padding-top: 6px;
+	background: #fff;
+	padding: 5px;
+}
+
+.matter .info {
+	padding-left: 818px;
+	margin-top: 65px;
+}
+
+.matter .info a {
+	color: #1693ff;
+}
+
+.matter .info a:hover {
+	color: #ec6a0a;
+}
+
+.inputLong textarea {
+	border: 1px solid #fc0;
+	background-color: #fff;
+	width: 960px;
+	height: 100px;
+	margin: 10px 20px 8px 20px;
+}
+
+.commentFunc {
+	padding: 0px 20px 15px 20px;
+}
+
+.btn span.mes_btn {
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+	background-color: rgba(236,106,10,.8);
+	display: block;
+	color: #fff;
+	font-family: "微软雅黑";
+	line-height: 30px;
+	text-align: center;
+	border-radius: 3px;
+	float: right;
+	cursor: pointer;
+	margin: -20px 2px;
+}
+	
+
+    /*-----------------liuyan--------------*/
+.liuyan {
+	width: 998px;
+	border: 1px solid #ec0;
+	margin-top: 10px;
+}
+
+.liuyan .title {
+	line-height: 49px;
+	font-size: 14px;
+	font-weight: bold;
+	width: 120px;
+	text-align: center;
+}
+
+.liuyan .title a {
+	color: #2d2d2d;
+}
+
+.recListS.borderTop {
+	width: 998px;
+}
+
+.recListS.borderTop ul li {
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.layout.recListLeft.f14 {
+	margin: 0px 10px;
+	overflow: hidden;
+}
+
+.fLeft {
+	float: left;
+	padding-top: 13px;
+	width: 48px;
+}
+
+.recDes {
+	float: left;
+	padding-left: 10px;
+	padding-top: 15px;
+}
+
+.cf90 {
+	float: right;
+}
+
+.vm.bold.c999 {
+	width: 910px;
+	overflow: hidden;
+	display: inline;
+}
+
+.vm.bold.c999 span {
+	font-size: 12px;
+}
+
+.rightFloor {
+	padding: 0px;
+	margin: 0px;
+}
+
+.recBox {
+	color: #000;
+	line-height: 18px;
+	width: 910px;
+}
+
+.mblFunc.mt10.f12.downWh {
+	width: 100%;
+	text-align: right;
+	color: #c1c1c1;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+.recBox {
+	padding: 8px 0px 8px 0px;
+	margin: 0px;
+}
+    
+
+   /*---------------温馨提示、关闭提示----------------*/
+.btnbox a.od {
+	border: #ccc 2px solid;
+	margin-top: 2px;
+	display: block;
+	font-weight: bold;
+	width: 80px;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: none
+}
+
+.btnbox a.od {
+	background-color: rgba(0,0,0,.9);
+	color: #fff;
+}
+
+.btnbox a.od:hover {
+	background: #52C4FF;
+}
+
+.btnbox {
+	width: 60px;
+	margin-left: 570px;
+	position: fixed;
+	left: 50%;
+	bottom: 240px;
+	display: block;
+}
+
+#feedbox {
+	border: #fff 2px solid;
+	margin: 290px 770px;
+	background: #B5D9F5;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 130px;
+}
+
+#feedbox .main {
+	font: 600 16px "Arial";
+	text-align: center;
+	padding: 20px;
+	color: red;
+}
+
+
+	/*------------------底部分页----------------------*/
+div.digg {
+	padding: 10px;
+	margin: 10px 3px;
+	text-align: center
+}
+
+div.digg a {
+	border: #ccc 1px solid;
+	padding: 5px 15px;
+	margin: 3px;
+	color: #3e71b9;
+	text-decoration: none
+}
+
+div.digg a:hover {
+	border: #dcd9d4 1px solid;
+	color: #ff6600;
+}
+
+div.digg a:active {
+	border: #dcd9d4 1px solid;
+	color: #000;
+}
+
+div.digg span.current {
+	border: solid 1px #dcd9d4;
+	padding: 5px 15px;
+	font-weight: bold;
+	margin: 3px;
+	color: #fff;
+	background-color: #4095CE;
+}
+
+div.digg span.disabled {
+	border: #eee 1px solid;
+	padding: 5px 15px;
+	margin: 3px;
+	color: #ddd;
+}

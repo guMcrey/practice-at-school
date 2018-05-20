@@ -1,0 +1,133 @@
+{
+  "getNewsList": [
+    {
+      "id": 1,
+      "title": "意大利艺术留学明天举行面试会",
+      "url": "http://news.sina.com.cn/s/2017-07-07/doc-ifyhvyie0454309.shtml"
+    },
+    {
+      "id": 2,
+      "title": "程序员用SVG写一个飞碟效果到博客，面试有这效果轻松过",
+      
+      "url": "http://news.hiapk.com/internet/s593b95ebde81.html"
+    },
+    {
+      "id": 3,
+      "title": "从选择到承担 万玉权谈一个程序员的自我修养",
+      "url": "http://www.chinanews.com/it/2017/07-05/8269793.shtml"
+    },
+    {
+      "id": 4,
+      "title": "程序员面试经验分享，看牛人如何面试BAT",
+      "url": "https://zhuanlan.zhihu.com/p/25335218"
+    },
+    {
+      "id": 5,
+      "title": "切记！程序员面试，不能犯的8个错误",
+      "url": "https://www.houxue.com/news-871053/"
+    },
+    {
+      "id": 6,
+      "title": "2016阿里百度面经分享（offer均已收到）",
+      "url": "http://www.php230.com/weixin1465268971.html"
+    },
+    {
+      "id": 7,
+      "title": "Java程序员跳槽面试失败的5个原因",
+      "url": "https://www.evget.com/article/2017/3/1/25795.html"
+    },
+    {
+      "id": 8,
+      "title": "Google前美女面试官谈程序员面试的技巧和建议",
+      "url": "http://www.csdn.net/article/2010-10-20/280728"
+    },
+    {
+      "id": 9,
+      "title": "Java程序员面试时需要注意的几点",
+      "url": "http://www.genshuixue.com/i-cxy/p/15706601"
+    },
+    {
+      "id": 10,
+      "title": "程序员面试经验分享，看牛人如何面试BAT",
+      "url": "https://zhuanlan.zhihu.com/p/25335218"
+    }
+
+  ],
+  "login": {
+    "username": "蓝欧粉36130",
+    "userId": 123123
+  },
+  "getPrice": {
+    "amount": 23678
+  },
+  "createOrder": {
+    "orderId": "6djk979"
+  },
+  "getOrderList": {
+    "list": [
+      {
+        "orderId": "3334",
+        "product": "Java",
+        "version": "高级版",
+        "period": "120分钟",
+        "buyNum": "成功",
+        "date": "2017-7-20",
+        "amount": "73分"
+      },
+      {
+        "orderId": "4566",
+        "product": "Android",
+        "version": "初级版",
+        "period": "60分钟",
+        "buyNum": "成功",
+        "date": "2017-7-24",
+        "amount": "86分"
+      },
+      {
+        "orderId": "4794",
+        "product": "HTML/CSS",
+        "version": "高级版",
+        "period": "60分钟",
+        "buyNum": "成功",
+        "date": "2017-8-3",
+        "amount": "79分"
+      },
+      {
+        "orderId": "4980",
+        "product": "JavaScript",
+        "version": "中级版",
+        "period": "90分钟",
+        "buyNum": "失败",
+        "date": "2017-8-7",
+        "amount": "0分"
+      },
+      {
+        "orderId": "5294",
+        "product": "C#",
+        "version": "高级版",
+        "period": "60分钟",
+        "buyNum": "成功",
+        "date": "2017-8-7",
+        "amount": "53分"
+      },
+      {
+        "orderId": "5325",
+        "product": "C/C++",
+        "version": "高级版",
+        "period": "120分钟",
+        "buyNum": "成功",
+        "date": "2017-8-8",
+        "amount": "70分"
+      },
+      {
+        "orderId": "5548",
+        "product": "PHP",
+        "version": "初级版",
+        "period": "60分钟",
+        "buyNum": "成功",
+        "date": "2017-8-10",
+        "amount": "89分"
+      }
+    ]
+  }
+}
