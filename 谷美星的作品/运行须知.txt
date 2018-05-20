@@ -1,0 +1,7 @@
+# 声明：项目均只包含前端部分
+# 随声听：index.html为项目入口文件
+# 蓝欧IT教育课程考评系统（vue）必须在安装有node环境的电脑上运行
+      控制台运行步骤:cd 项目路径
+                     npm install
+                     npm install webpack -g
+                     npm run dev

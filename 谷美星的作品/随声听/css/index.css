@@ -1,0 +1,451 @@
+@charset "utf-8";
+
+body {
+	font-family: '微软雅黑';
+}
+
+html {
+	color: #000;
+	background: #FFF;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+em,strong,b,u,i {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+h1,h2,h3 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+input,textarea,select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	*font-size: 100%;
+  /*兼容IE浏览器*/
+}
+
+img {
+	border: 0 none;
+}/*
+		.login{
+			float: right;
+			width: 120px;
+			height: 50px;
+			margin-top:15px; 
+		}
+		.login a{
+			width: 55px;
+			height: 50px;
+			text-align: center;
+			line-height: 50px;
+			display: block;
+			float: left;
+			color: #fff;
+			border: 1px solid #666;
+			text-decoration:none;
+		}*/
+		.login a:hover{
+			background: #5580fb;
+		}
+
+
+.nav {
+	margin-left: 0;
+	margin-bottom: 20px;
+	list-style: none;
+}
+
+.login {
+	margin:-47px 33px;
+	list-style: none; 
+
+}
+
+.login li{
+	float: right;
+	border:1px solid #ccc;
+	margin-left:10px;
+}
+
+
+.nav > li > a {
+	display: block;
+}
+
+.nav > li > a:hover {
+	text-decoration: none;
+	background-color: #199fd6;
+}
+
+
+.nav > li > a > img {
+	max-width: none;
+}
+
+
+ /*------图片轮播------*/
+/* flexslider */
+.flexslider {
+	position: relative;
+	height: 300px;
+	overflow: hidden;
+	background: url(../images/loading.gif) 50% no-repeat;
+}
+
+.slides {
+	position: relative;
+	z-index: 1;
+}
+
+.slides li {
+	height: 400px;
+}
+
+.flex-control-nav {
+	position: absolute;
+	bottom: 10px;
+	z-index: 2;
+	width: 100%;
+	text-align: center;
+}
+
+.flex-control-nav li {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: 0 5px;
+	*display: inline;
+	zoom: 1;
+}
+
+.flex-control-nav a {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	line-height: 40px;
+	overflow: hidden;
+	background: url(../images/dot.png) right 0 no-repeat;
+	cursor: pointer;
+}
+
+.flex-control-nav .flex-active {
+	background-position: 0 0;
+}
+
+.flex-direction-nav {
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	top: 45%;
+}
+
+.flex-direction-nav li a {
+	display: block;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	cursor: pointer;
+	position: absolute;
+}
+
+.flex-direction-nav li a.flex-prev {
+	left: 40px;
+	background: url(../images/prev.png) center center no-repeat;
+}
+
+.flex-direction-nav li a.flex-next {
+	right: 40px;
+	background: url(../images/next.png) center center no-repeat;
+}
+
+/*-----------中间内容+右上部-------------*/
+.news ul.listen_txt  li a.links {
+	display: inline-block;
+	width: 220px;
+	height: 85px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.news ul.listen_txt li:hover {
+	border-left: 3px solid #E54724;
+}
+
+.news ul.listen_txt li:hover .con .tag {
+	background: #C2DCF7;
+}
+
+.news ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background: #fff;
+	width: 659px;
+}
+
+.news ul li {
+	list-style-type: none;
+	vertical-align: middle;
+	padding: 5px 0px;
+	border-left: 3px solid #fff;
+}
+
+.newa ul li:hover {
+	background: #f5f5f5;
+}
+
+.news li {
+	overflow: hidden;
+}
+
+a {
+	color: #151515;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #DE5246;
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: none;
+}
+
+ul.listen_txt li {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+ul.listen_txt li .tit {
+	height: 30px;
+}
+
+ul.listen_txt li .tit a {
+	font-size: 14px;
+	font-weight: 900;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Microsoft YaHei'
+}
+
+ul.listen_txt2 li .text a {
+	font-size: 14px;
+	font-weight: 550;
+	font-size: 13px;
+	font-family: 'Microsoft YaHei'
+}
+
+ul.listen_txt li .img {
+	margin-top: 2px;
+}
+
+ul.listen_txt2 li.img {
+	margin-top: 0px;
+}
+
+ul.listen_txt li .text {
+	width: 350px;
+	height: 63px;
+	line-height: 20px;
+	color: #555;
+	font-size: 13px;
+}
+
+ul.listen_txt2 li div.img {
+	width: 350px;
+	height: 163px;
+	line-height: 100px;
+}
+
+ul.listen_txt2 li.text {
+	width: 420px;
+	height: 63px;
+	line-height: 20px;
+	color: #555;
+	font-size: 13px;
+}
+
+.listen_txt li div.img a {
+	display: block;
+	float: left;
+}
+
+.listen_txt2 li div.img a {
+	display: block;
+	float: left;
+}
+
+.listen_txt li .img .text {
+	display: block;
+	float: left;
+	margin-left: 20px;
+}
+
+.listen_txt2 li div.text {
+	display: block;
+	float: right;
+	margin-left: 20px;
+	padding-bottom: 6px;
+}
+
+.listen_txt2 li div.img {
+	float: right;
+}
+
+.left {
+	float: left;
+	width: 100%;
+}
+.head {
+	    height: 100px;
+    width: 100%;
+    background-color: #06F;
+}
+
+.fr {
+	float: right;
+}
+.block {
+    height: 56px;
+    width: 980px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.right {
+	float: right;
+	width: 100%;
+	background: #fff;
+	width: 249px;
+	margin: 10px -14px;
+}
+
+.right:after,.left:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.right li {
+	float: left;
+	clear: both;
+}
+
+.li3 {
+	background: url("../images/li3.gif") no-repeat;
+}
+
+/*.head {
+	height: 100px;
+	width: 100%;
+	background-color: #06F;
+}
+
+.block {
+	height: 56px;
+	width: 980px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.fr {
+	float: right;
+	margin:5px;
+}
+*/
+/*---------------阅读排行---------------*/
+a,a:visited {
+	color: #5e5e5e;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #b52725;
+	text-decoration: underline;
+}
+
+.clear {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+.demo {
+	width: 255px;
+}
+
+.ranklist {
+	border: solid 1px #ddd;
+	padding: 10px 10px 0 10px;
+}
+
+.ranklist li {
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+	position: relative;
+	padding: 0 70px 0 30px;
+	margin: 0 0 10px 0;
+}
+
+.ranklist li em {
+	background: url(../images/mun.gif) no-repeat;
+	width: 20px;
+	height: 16px;
+	overflow: hidden;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-align: center;
+	font-style: normal;
+	color: #333;
+}
+
+.ranklist li em {
+	background-position: 0 -16px;
+}
+
+.ranklist li.top1 em {
+	background-position: 0 0;
+	color: #fff;
+}
+
+.ranklist li .num {
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #999;
+}
+/*------底部--------*/
+#footer {
+	background: #5e5e5e;
+	color: #fff;
+	margin-top: 20px;
+	text-align: center;
+	padding: 20px;
+}

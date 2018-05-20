@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+/*--------------左侧---------------*/
+.music_box{margin:60px 80px;width:782px;}
+.content {width: 762px;height:550px;overflow:hidden;padding:10px;background:#ccc;}
+#lrc_list{margin:-12px -10px;background:#ccc;}
+#lrc_list li{font:normal 14px/2.1 'microsoft yahei';text-align:center;}
+#lrc_list li.hover {color:red;font-weight:bold;}
+
+/* --------下载排行--------- */
+.s-index-side {
+	width: 350px;
+	border: 1px solid #d8d8d8;
+	margin: -755px 86px;
+	float: right;
+}
+
+.s-index-side .title {
+	height: 41px;
+	background-color: #f5f5f5;
+	position: relative;
+}
+
+.s-index-side .title .s-index-icon {
+	position: absolute;
+	width: 20px;
+	height: 18px;
+	top: 11px;
+	left: 10px;
+}
+
+.s-index-side .title h3 {
+	padding-left: 18px;
+	height: 40px;
+	line-height: 40px;
+	color: #000;
+	border-bottom: 1px solid #d8d8d8;
+	font-size: 14px;
+}
+
+.s-index-side .title .game-top10-icon {
+	background-position: -140px -54px
+}
+
+.s-index-side .app-show-block {
+	padding: 2px 0px 0px 65px;
+	margin: 0px 0px 0px 12px;
+	height: 60px;
+	text-align: left;
+	position: relative;
+}
+
+.s-index-side .app-show-block .s-index-down {
+	margin: 180px;
+	margin-top: 7px;
+	font-weight: normal;
+	background-color: #FF4E00
+}
+
+.s-index-side .app-show-block a {
+	height: 25px;
+}
+
+.s-index-side .app-show-block .pic {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+}
+
+.s-index-side .app-show-block img {
+	display: block;
+	height: 52px;
+	width: 100px;
+}
+
+.s-index-side .weekly-list {
+	padding: 0px 10px 2px 10px;
+	margin-top: -1px;
+	position: relative;
+}
+
+.s-index-side .weekly-list li {
+	height: 39px;
+	line-height: 39px;
+	border-top: 1px dotted #d8d8d8;
+	overflow: hidden;
+	*position: relative;
+	zoom: 1;
+}
+
+.s-index-side .weekly-list li .app-show-title {
+	padding-left: 10px;
+	font-size: 12px;
+}
+
+.s-index-side .weekly-list li .num {
+	font-size: 12px;
+	height: 40px;
+	line-height: 40px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+.s-index-side .weekly-list li.current a {
+	font-weight: bold;
+}
+
+.s-index-side .weekly-list li.current .app-show-title a:hover {
+	color: #ff4e00;
+}
+
+.s-index-down {
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	margin: 0px auto;
+	text-indent: 0px;
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	text-decoration: none;
+	background-position: -228px -47px;
+	background-color: #FF4E00;
+}
+
+.s-index-down:hover {
+	background-position: -228px -74px;
+	text-decoration: none;
+}
