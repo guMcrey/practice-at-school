@@ -1,2 +1,3 @@
-# Projects
-我的前端作品库
+# practice at school
+
+Practice projects during school
